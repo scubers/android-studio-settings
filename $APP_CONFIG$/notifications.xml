@@ -1,0 +1,9 @@
+<application>
+  <component name="NotificationConfiguration">
+    <notification groupId="Build sync orphan modules" displayType="NONE" shouldLog="false" />
+    <notification groupId="Gradle Notification Group" displayType="NONE" shouldLog="false" />
+    <notification groupId="IDE and Plugin Updates" displayType="NONE" />
+    <notification groupId="Material Theme Notifications" displayType="NONE" />
+    <notification groupId="Vcs Important Messages" displayType="STICKY_BALLOON" shouldLog="false" />
+  </component>
+</application>

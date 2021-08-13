@@ -1,0 +1,20 @@
+<templateSet group="user">
+  <template name="dart_json_serializable_factory" value="factory $CLASS$.fromJson(Map&lt;String, dynamic&gt; json) =&gt;&#10;      _$$$CLASS$FromJson(json);&#10;&#10;Map&lt;String, dynamic&gt; toJson() =&gt; _$$$CLASS$ToJson(this);" description="dart_json_serializable_factory" toReformat="false" toShortenFQNames="true">
+    <variable name="CLASS" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="DART" value="true" />
+    </context>
+  </template>
+  <template name="dart_json_generic_serializable_factory" value="factory $CLASS$.fromJson(Map&lt;String, dynamic&gt; json, T Function(Object json) fromJsonT) =&gt;&#10;      _$$$CLASS$FromJson(json, fromJsonT);&#10;&#10;Map&lt;String, dynamic&gt; toJson(Object Function(T value) toJsonT) =&gt; _$$$CLASS$ToJson(this, toJsonT);" description="dart_json_serializable_factory" toReformat="false" toShortenFQNames="true">
+    <variable name="CLASS" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="DART" value="true" />
+    </context>
+  </template>
+  <template name="dart_jsc" value="@JsonSerializable()&#10;class $CLASS$ {&#10;  $CLASS$();&#10;&#10;  factory $CLASS$.fromJson(Map&lt;String, dynamic&gt; json) =&gt; _$$$CLASS$FromJson(json);&#10;&#10;  Map&lt;String, dynamic&gt; toJson() =&gt; _$$$CLASS$ToJson(this);&#10;}&#10;" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="CLASS" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="DART" value="true" />
+    </context>
+  </template>
+</templateSet>
